@@ -1,0 +1,26 @@
+.aside{
+  display: inline-block;
+  background-color: black;
+  color: white;
+  height: 100vh;
+  width: 20vw;
+
+  ul{
+    width: 100%;
+    padding: 0;
+  }
+
+  li{
+    text-align: center;
+    font-family: Arial, serif;
+    width: 100%;
+    padding: 30px 0;
+    list-style-type: none;
+    transition: 0.2s;
+    &:hover{
+      background-color: #fff;
+      color: black;
+      cursor: pointer;
+    }
+  }
+}

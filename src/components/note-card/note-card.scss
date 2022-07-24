@@ -1,0 +1,15 @@
+.note {
+  border: 1px solid black;
+  min-width: 100%;
+  padding:1%;
+  border-radius: 15px;
+  min-height: 70px;
+  max-height: 70px;
+  margin: 10px 0;
+  cursor: pointer;
+
+  &:hover{
+    background-color: black;
+    color: white;
+  }
+}
